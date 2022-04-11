@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Lobster&family=Merienda:wght@400;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Satisfy&family=Tangerine:wght@400;700&display=swap');
+*{
+  padding:0;
+  margin:0;
+}
+body{
+    text-align: center;
+}
+header{
+  background-color: #FBD6D2;
+  position: relative;
+  padding-top:70px
+
+}
+h1{
+font-family: 'Tangerine', cursive;
+font-size: 100px;
+color:#C32BAD;
+
+}
+
+h2{
+  color:#A63EC5;
+}
+
+h3{
+  color: #F190B7;
+  font-family: 'Merienda', cursive;
+}
+
+.name{
+  padding-bottom: 30px;
+}
+
+.cloud{
+  position: absolute;
+}
+
+.top-cloud{
+  right:200px;
+}
+
+.bottom-cloud{
+  left:200px;
+}
+
+.about{
+  margin-top: 60px;
+}
+
+.bio{
+  width: 30%;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+.image{
+   border-radius: 50%;
+}
+
+.bio h2{
+  margin: 25px auto;
+}
+
+hr {
+  border: none;
+  border-top: 8px dotted #FBD6D2;
+  width: 6%;
+  margin: 70px auto;
+}
+
+.skill{
+  width:40%;
+  margin:10px auto;
+  text-align: left;
+}
+
+.skill h2{
+  text-align: center;
+}
+
+.skill-each {
+  margin: 80px auto;
+  line-height: 2;
+}
+
+.computer{
+  float:left;
+  margin-right: 60px;
+}
+
+.analyst{
+  float:right;
+  margin-left: 60px;
+}
+
+.bottom h3{
+  margin:20px auto;
+}
+
+.bottom button{
+  background-color:#C32BAD;
+  border: none;
+  padding: 10px 20px;
+  margin: 50px auto;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.contact:hover{
+  background-color: #A63EC5;
+}
+
+footer{
+  background-color:#F190B7;
+  padding-top: 15px;
+}
+
+footer a{
+  text-decoration: none;
+  color:#C32BAD;
+  margin:0 20px;
+  font-weight: 900;
+}
+
+footer a:hover{
+  color: white;
+}
+
+footer p{
+  margin-top:20px;
+}
